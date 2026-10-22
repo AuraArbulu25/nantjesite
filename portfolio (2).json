@@ -1,9 +1,0 @@
-{
-  "items": [
-    { "title": "Instagram-Relaunch", "client": "Kunde A", "year": "2025", "category": "Strategie", "description": "Platzhalter: neue Positionierung, Content-Säulen und Veröffentlichungsrhythmus.", "result": "+0 % Engagement in 3 Monaten", "image": "", "link": "" },
-    { "title": "Kampagne für eine politische Organisation", "client": "Kunde B", "year": "2025", "category": "Politische Kommunikation", "description": "Platzhalter: Ausgangslage, Botschaften, Kanäle und Ergebnis.", "result": "0.000 Reichweite in 4 Wochen", "image": "", "link": "" },
-    { "title": "Launch-Kampagne", "client": "Kunde C", "year": "2025", "category": "Kampagnen", "description": "Platzhalter: Kampagnenidee, Kanäle und kreativer Ansatz.", "result": "0 neue Follower", "image": "", "link": "" },
-    { "title": "Kurzvideo-Serie", "client": "Kunde D", "year": "2024", "category": "Content", "description": "Platzhalter: Format, Produktion und Ergebnis.", "result": "", "image": "", "link": "" },
-    { "title": "Team-Workshop", "client": "Kunde E", "year": "2024", "category": "Workshops", "description": "Platzhalter: Teilnehmende und Lernergebnisse.", "result": "", "image": "", "link": "" }
-  ]
-}
