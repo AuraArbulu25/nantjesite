@@ -1,9 +1,0 @@
-{
-  "items": [
-    { "title": "Instagram relaunch", "client": "Client A", "year": "2025", "category": "Strategy", "description": "Placeholder: new positioning, content pillars and posting rhythm.", "result": "+0% engagement in 3 months", "image": "", "link": "" },
-    { "title": "Campaign for a political organisation", "client": "Client B", "year": "2025", "category": "Political Communication", "description": "Placeholder: starting point, messaging, channels and result.", "result": "0k reach in 4 weeks", "image": "", "link": "" },
-    { "title": "Launch campaign", "client": "Client C", "year": "2025", "category": "Campaigns", "description": "Placeholder: campaign idea, channels and creative approach.", "result": "0 followers gained", "image": "", "link": "" },
-    { "title": "Short-video series", "client": "Client D", "year": "2024", "category": "Content", "description": "Placeholder: format, production setup and outcome.", "result": "", "image": "", "link": "" },
-    { "title": "Team workshop", "client": "Client E", "year": "2024", "category": "Workshops", "description": "Placeholder: who attended, what the team learned.", "result": "", "image": "", "link": "" }
-  ]
-}
