@@ -1,0 +1,37 @@
+{
+  "services": [
+    {
+      "title": "Strategie & Positionierung",
+      "description": "Ein klarer Plan dafür, wen Sie ansprechen, was Sie sagen und wo Sie sichtbar sind.",
+      "includes": ["Analyse Ihrer bestehenden Kanäle", "Zielgruppe & Tonalität", "Plattform- und Content-Strategie", "90-Tage-Fahrplan"]
+    },
+    {
+      "title": "Content & Storytelling",
+      "description": "Ideen und Formate, die zu Ihrer Marke und Ihrer Zielgruppe passen, veröffentlichungsfertig.",
+      "includes": ["Content-Säulen und Redaktionsplan", "Texte und kreative Leitung", "Reels, Karussells und Stories", "Vorlagen für Ihr Team"]
+    },
+    {
+      "title": "Community & Wachstum",
+      "description": "Aus Followern wird eine Community, die redet, teilt und bleibt.",
+      "includes": ["Aufbau des Community-Managements", "Leitfäden für Interaktion", "Kooperationen und Kampagnen", "Monatliches Reporting"]
+    },
+    {
+      "title": "Workshops & Coaching",
+      "description": "Praxisnahe Sessions, die Ihr Team sicher im Umgang mit Social Media machen.",
+      "includes": ["Team-Workshops (online oder vor Ort)", "Einzelcoaching", "Schulung zu Tools und Workflows", "Dokumentation zur Übergabe"]
+    }
+  ],
+  "political": {
+    "title": "Politische Kommunikation",
+    "headline": "Wenn Haltung sichtbar werden soll.",
+    "description": "Politische Botschaften brauchen Klarheit, Tempo und Glaubwürdigkeit. Ich entwickle Kommunikationsstrategien und Social-Media-Kampagnen für politische Akteure und Organisationen, vom Wahlkampf bis zur dauerhaften Präsenz.",
+    "includes": ["Kampagnen- und Wahlkampfkommunikation", "Botschaften, Narrative und Positionierung", "Social-Media-Strategie für Politik und Verwaltung", "Public Affairs und Themenkommunikation", "Krisen- und Reaktionskommunikation", "Medientraining und Social-Media-Schulungen"],
+    "audience": ["Parteien & Kandidierende", "Verbände & Gewerkschaften", "NGOs & Stiftungen", "Kommunen & Institutionen"]
+  },
+  "process": [
+    { "title": "Kennenlerngespräch", "description": "30 Minuten kostenlos, um Ihre Ziele zu verstehen und zu klären, ob wir zusammenpassen." },
+    { "title": "Analyse & Plan", "description": "Ich prüfe Ihre Präsenz und schicke Ihnen ein konkretes Angebot." },
+    { "title": "Umsetzung & Launch", "description": "Wir setzen Strategie und Content gemeinsam in die Praxis um." },
+    { "title": "Messen & Verbessern", "description": "Regelmäßige Abstimmungen und Berichte für kontinuierliche Verbesserung." }
+  ]
+}
