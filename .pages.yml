@@ -1,0 +1,177 @@
+media:
+  input: assets/img
+  output: /assets/img
+
+content:
+  - name: site
+    label: Site settings (EN)
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: role, label: Role / title, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: intro, label: Intro text (landing page), type: text }
+      - { name: email, label: Email, type: string }
+      - { name: location, label: Location, type: string }
+      - { name: instagram, label: Instagram URL, type: string }
+      - { name: linkedin, label: LinkedIn URL, type: string }
+      - { name: portrait, label: Portrait image, type: image }
+      - { name: marquee, label: Scrolling keywords, type: string, list: true }
+      - name: stats
+        label: Numbers
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Value, type: string }
+          - { name: label, label: Label, type: string }
+
+  - name: services
+    label: Consulting services (EN)
+    type: file
+    path: content/services.json
+    format: json
+    fields:
+      - name: services
+        label: Services
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: includes, label: What's included, type: string, list: true }
+      - name: process
+        label: Process steps
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: description, label: Description, type: text }
+
+  - name: portfolio
+    label: Portfolio (EN)
+    type: file
+    path: content/portfolio.json
+    format: json
+    fields:
+      - name: items
+        label: Projects
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: client, label: Client, type: string }
+          - { name: year, label: Year, type: string }
+          - { name: category, label: Category, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: result, label: Result (optional), type: string }
+          - { name: image, label: Image, type: image }
+          - { name: link, label: Link (optional), type: string }
+
+  - name: cv
+    label: CV (EN)
+    type: file
+    path: content/cv.json
+    format: json
+    fields:
+      - name: experience
+        label: Experience
+        type: object
+        list: true
+        fields: &entry
+          - { name: when, label: Period, type: string }
+          - { name: title, label: Title, type: string }
+          - { name: org, label: Organisation, type: string }
+          - { name: description, label: Description, type: text }
+      - name: education
+        label: Education
+        type: object
+        list: true
+        fields: *entry
+      - { name: skills, label: Skills, type: string, list: true }
+      - { name: languages, label: Languages, type: string, list: true }
+
+  - name: site-de
+    label: Seiteneinstellungen (DE)
+    type: file
+    path: content/de/site.json
+    format: json
+    fields:
+      - { name: role, label: Rolle / Titel, type: string }
+      - { name: tagline, label: Tagline, type: string }
+      - { name: intro, label: Einleitungstext (Startseite), type: text }
+      - { name: location, label: Ort, type: string }
+      - { name: marquee, label: Laufende Stichwörter, type: string, list: true }
+      - name: stats
+        label: Zahlen
+        type: object
+        list: true
+        fields:
+          - { name: value, label: Wert, type: string }
+          - { name: label, label: Beschriftung, type: string }
+
+  - name: services-de
+    label: Beratungsleistungen (DE)
+    type: file
+    path: content/de/services.json
+    format: json
+    fields:
+      - name: services
+        label: Leistungen
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: description, label: Beschreibung, type: text }
+          - { name: includes, label: Enthalten, type: string, list: true }
+      - name: process
+        label: Ablaufschritte
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: description, label: Beschreibung, type: text }
+
+  - name: portfolio-de
+    label: Portfolio (DE)
+    type: file
+    path: content/de/portfolio.json
+    format: json
+    fields:
+      - name: items
+        label: Projekte
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Titel, type: string }
+          - { name: client, label: Kunde, type: string }
+          - { name: year, label: Jahr, type: string }
+          - { name: category, label: Kategorie, type: string }
+          - { name: description, label: Beschreibung, type: text }
+          - { name: result, label: Ergebnis (optional), type: string }
+          - { name: image, label: Bild, type: image }
+          - { name: link, label: Link (optional), type: string }
+
+  - name: cv-de
+    label: Lebenslauf (DE)
+    type: file
+    path: content/de/cv.json
+    format: json
+    fields:
+      - name: experience
+        label: Erfahrung
+        type: object
+        list: true
+        fields: &entry-de
+          - { name: when, label: Zeitraum, type: string }
+          - { name: title, label: Titel, type: string }
+          - { name: org, label: Organisation, type: string }
+          - { name: description, label: Beschreibung, type: text }
+      - name: education
+        label: Ausbildung
+        type: object
+        list: true
+        fields: *entry-de
+      - { name: skills, label: Kenntnisse, type: string, list: true }
+      - { name: languages, label: Sprachen, type: string, list: true }
