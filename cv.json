@@ -1,0 +1,12 @@
+{
+  "experience": [
+    { "when": "2024 – today", "title": "Independent consultant for social media and political communication", "org": "Self-employed, Leipzig", "description": "Strategy, content and training for brands, organisations and political actors. (Replace with the real description.)" },
+    { "when": "2021 – 2024", "title": "Social Media Manager", "org": "Company name", "description": "Placeholder: responsibilities, channels managed, results." },
+    { "when": "2019 – 2021", "title": "Content Creator", "org": "Company name", "description": "Placeholder: what you did and achieved." }
+  ],
+  "education": [
+    { "when": "2015 – 2019", "title": "Degree title", "org": "University", "description": "Placeholder: focus areas or thesis." }
+  ],
+  "skills": ["Social media strategy", "Political communication", "Campaign planning", "Content creation", "Copywriting", "Community management", "Analytics & reporting", "Meta Business Suite", "Canva", "CapCut"],
+  "languages": ["German (native)", "English (fluent)"]
+}

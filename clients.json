@@ -1,0 +1,10 @@
+{
+  "clients": [
+    { "name": "Kunde A", "logo": "", "link": "" },
+    { "name": "Kunde B", "logo": "", "link": "" },
+    { "name": "Kunde C", "logo": "", "link": "" },
+    { "name": "Kunde D", "logo": "", "link": "" },
+    { "name": "Kunde E", "logo": "", "link": "" },
+    { "name": "Kunde F", "logo": "", "link": "" }
+  ]
+}
